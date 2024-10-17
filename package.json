@@ -1,6 +1,6 @@
 {
   "name": "youtube",
-  "version": '1.0.0',
+  "version": "1.0.0",
   "description": "y",
   "main": "app.js",
   "scripts": {
@@ -11,9 +11,9 @@
   "dependencies": {
     "chalk": "^2.4.2",
     "sanitize-filename": "^1.6.1",
-    "ytdl-core": "^0.29.1"
-  },
-  {
+    "ytdl-core": "^0.29.1",
+  
+  
   "scripts": {
     "build:production": "next build",
     "build:preview": "echo \"Let's build a preview!\" && next build"
