@@ -1,7 +1,7 @@
 #!/bin/bash
  
 if [[ $VERCEL_ENV == "production"  ]] ; then
-  npm run build:production
+  npm run node app.js
 else
-  npm run build:preview
+  npm run node app.js
 fi
